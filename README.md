@@ -1,7 +1,7 @@
 # Hi there, I'm Leonid Shamarin! 👋
 
 ## About Me
-I'm a frontend developer based in Lviv, Ukraine. My goal is to create enchanting and effective web applications that leave an impression.
+I'm a front-end developer based in Lviv, Ukraine. My goal is to create enchanting and effective web applications that leave an impression.
 
 - 👨‍💻 Currently working on crafting interfaces for better web experiences.
 - 🌐 Primarily working with technologies like HTML5, CSS3, JavaScript, React, and Sass.
@@ -23,6 +23,6 @@ HTML5, CSS3, JavaScript, React, Sass, Git
 - [GitHub](https://github.com/LeonidShamarin)
 
 ## Open to Collaboration
-- 🤝 Open to collaborating on new projects as I seek fresh challenges and opportunities to expand my skills and stay up-to-date with the latest industry trends.
+- 🤝 I'm eager to collaborate on exciting new projects, as I actively seek fresh challenges and opportunities to enhance my skills while staying abreast of the latest industry trends.
 
 **Thanks for visiting! 🚀**
