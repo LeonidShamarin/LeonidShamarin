@@ -12,7 +12,7 @@ I'm a front-end developer based in Lviv, Ukraine. My goal is to create enchantin
 - ✉️ You can reach out to me at: leonideko1@gmail.com.
 
 ## What I'm Currently Learning
-- 🧠 Deep diving into React for building scalable and efficient interfaces.
+- 🧠 Deep diving into React for building scalable and efficient interfaces, Angular also.
 - 🚀 Also interested in and learning DevOps for optimizing development processes.
 
 ## Skills
