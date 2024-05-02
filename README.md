@@ -16,7 +16,18 @@ I'm a front-end developer based in Lviv, Ukraine. My goal is to create enchantin
 - 🚀 Also interested in and learning DevOps for optimizing development processes.
 
 ## Skills
-HTML5, CSS3, JavaScript, React, Sass, Git
+- HTML5, CSS3, SASS
+- JavaScript, TypeScript
+- React.js, Angular, WordPress
+- React Router, Redux, jQuery
+- Node.js, npm, Bootstrap
+- Firebase
+- Material-UI, Docker
+- SQL, MongoDB
+- Git, GitHub, Git Actions
+- SonarQube
+- Jasmine, Jest
+- React Testing Library
 
 ## Socials
 - [LinkedIn](https://www.linkedin.com/in/leonid-shamarin-749649272/)
