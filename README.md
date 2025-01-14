@@ -19,7 +19,7 @@ I'm passionate about crafting visually appealing and user-centric websites and a
 ## Skills
 - HTML5, CSS3, SASS
 - JavaScript, TypeScript
-- React.js, Angular, WordPress
+- React.js, Angular
 - React Router, Redux, jQuery
 - Node.js, npm, Bootstrap
 - Firebase
@@ -27,8 +27,7 @@ I'm passionate about crafting visually appealing and user-centric websites and a
 - SQL, MongoDB
 - Git, GitHub, Git Actions
 - SonarQube
-- Jasmine, Jest
-- React Testing Library
+- Jest, React Testing Library
 
 ## Socials
 - [LinkedIn](https://www.linkedin.com/in/leonid-shamarin-749649272/)
