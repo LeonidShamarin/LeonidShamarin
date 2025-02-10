@@ -5,7 +5,7 @@ I'm a front-end developer based in Lviv, Ukraine. As a dedicated front-end devel
 I'm passionate about crafting visually appealing and user-centric websites and applications that elevate the user experience.
 
 - 👨‍💻 Currently working on crafting interfaces for better web experiences.
-- 🌐 Primarily working with technologies like HTML5, CSS3, JavaScript, React, and Sass.
+- 🌐 Primarily working with technologies like HTML5, CSS3, JavaScript, Angular, React, and Sass.
 - 📚 Always learning new technologies and development practices.
 
 ## Location and Contact
@@ -13,7 +13,7 @@ I'm passionate about crafting visually appealing and user-centric websites and a
 - ✉️ You can reach out to me at: leonideko1@gmail.com.
 
 ## What I'm Currently Learning
-- 🧠 Deep diving into React for building scalable and efficient interfaces, Angular also.
+- 🧠 Deep diving into React and Angular for building scalable and efficient interfaces.
 - 🚀 Also interested in and learning DevOps for optimizing development processes.
 
 ## Skills
