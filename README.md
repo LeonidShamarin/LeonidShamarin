@@ -19,11 +19,11 @@ I'm passionate about crafting visually appealing and user-centric websites and a
 ## Skills
 - HTML5, CSS3, SASS
 - JavaScript, TypeScript
-- React.js, Angular
+- Angular, RxJS, React.js
 - React Router, Redux, jQuery
 - Node.js, npm, Bootstrap
 - Firebase
-- Material-UI, Docker
+- Angular Material, Material-UI, Docker
 - SQL, MongoDB
 - Git, GitHub, Git Actions
 - SonarQube
