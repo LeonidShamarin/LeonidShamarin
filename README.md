@@ -19,7 +19,7 @@ I'm passionate about crafting visually appealing and user-centric websites and a
 ## Skills
 - HTML5, CSS3, SASS
 - JavaScript, TypeScript
-- Angular, RxJS, React.js
+- React.js, Angular, RxJS
 - React Router, Redux, jQuery
 - Node.js, npm, Bootstrap
 - Firebase
