@@ -79,11 +79,7 @@ Here are some of the projects I've worked on:
 
 4. **GIF Search App**  
    A web application for searching GIF animations using the Giphy API. Built with Angular 17 and Angular Material.  
-   [View on GitHub](https://github.com/LeonidShamarin/gif-search-app)
-
-5. **Angular Task Manager**  
-   A task management application built with Angular, featuring CRUD operations, state management, and a responsive design.  
-   [View on GitHub](https://github.com/LeonidShamarin/angular-task-manager)
+   [View on GitHub](https://github.com/LeonidShamarin/Angular_GifSearch_App)
 
 ---
 
