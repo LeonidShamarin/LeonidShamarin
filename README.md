@@ -13,7 +13,7 @@
 I'm a **Front-End Developer** based in **Lviv, Ukraine**. With **2 years of experience**, I specialize in crafting visually appealing and user-centric websites and applications that elevate the user experience. I'm passionate about creating seamless, responsive, and scalable interfaces.
 
 - 👨‍💻 **Currently working on**: Crafting interfaces for better web experiences.
-- 🌐 **Technologies I work with**: HTML5, CSS3, JavaScript, Angular, React, and Sass.
+- 🌐 **Technologies I work with**: HTML5, CSS3, JavaScript, React, Angular, and Sass.
 - 📚 **Always learning**: New technologies and development practices to stay ahead in the industry.
 
 ---
