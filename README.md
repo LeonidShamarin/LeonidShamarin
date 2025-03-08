@@ -70,11 +70,11 @@ Here are some of the projects I've worked on:
    [View on GitHub](https://github.com/LeonidShamarin/Angular-Calendar-App)
 
 2. **Rick and Morty Project**  
-   A web application that fetches and displays characters from the Rick and Morty API. Built with Angular, it showcases API integration, dynamic data rendering, and clean UI design.  
+   A web application that fetches and displays characters from the Rick and Morty API. Built with React, it showcases API integration, dynamic data rendering, and clean UI design.  
    [View on GitHub](https://github.com/LeonidShamarin/Project-Rick-and-Morty)
 
 3. **Your FilleDrive (Firebase)**  
-   A file storage and management application built with Firebase. It allows users to upload, download, and manage files in the cloud. This project highlights my skills in Firebase integration and real-time data handling.  
+   A file storage and management application built with Firebase. It allows users to upload, download, and manage files in the cloud. This project highlights my skills in React and Firebase integration and real-time data handling.  
    [View on GitHub](https://github.com/LeonidShamarin/Your-FilleDrive-Firebase)
 
 4. **GIF Search App**  
