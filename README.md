@@ -65,17 +65,25 @@ I'm always eager to collaborate on exciting new projects! Whether it's a challen
 
 Here are some of the projects I've worked on:
 
-1. **GIF Search App**  
+1. **Angular Calendar App**  
+   A calendar application built with Angular, featuring event creation, editing, and deletion. It demonstrates my skills in Angular, state management, and responsive design.  
+   [View on GitHub](https://github.com/LeonidShamarin/Angular-Calendar-App)
+
+2. **Rick and Morty Project**  
+   A web application that fetches and displays characters from the Rick and Morty API. Built with Angular, it showcases API integration, dynamic data rendering, and clean UI design.  
+   [View on GitHub](https://github.com/LeonidShamarin/Project-Rick-and-Morty)
+
+3. **Your FilleDrive (Firebase)**  
+   A file storage and management application built with Firebase. It allows users to upload, download, and manage files in the cloud. This project highlights my skills in Firebase integration and real-time data handling.  
+   [View on GitHub](https://github.com/LeonidShamarin/Your-FilleDrive-Firebase)
+
+4. **GIF Search App**  
    A web application for searching GIF animations using the Giphy API. Built with Angular 17 and Angular Material.  
    [View on GitHub](https://github.com/LeonidShamarin/gif-search-app)
 
-2. **E-Commerce Platform**  
-   A responsive e-commerce website built with React, Redux, and Firebase.  
-   [View on GitHub](https://github.com/LeonidShamarin/e-commerce-platform)
-
-3. **Portfolio Website**  
-   My personal portfolio website showcasing my skills, projects, and contact information.  
-   [View on GitHub](https://github.com/LeonidShamarin/portfolio)
+5. **Angular Task Manager**  
+   A task management application built with Angular, featuring CRUD operations, state management, and a responsive design.  
+   [View on GitHub](https://github.com/LeonidShamarin/angular-task-manager)
 
 ---
 
