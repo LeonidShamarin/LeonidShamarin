@@ -83,12 +83,6 @@ Here are some of the projects I've worked on:
 
 ---
 
-## 📊 GitHub Stats
-
-![Leonid's GitHub Stats](https://github-readme-stats.vercel.app/api?username=LeonidShamarin&show_icons=true&theme=radical)
-
----
-
 ## 📫 Let's Connect!
 
 If you'd like to collaborate, discuss a project, or just say hi, feel free to reach out:
