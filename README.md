@@ -4,7 +4,7 @@
 Full-stack developer with an AI focus.
 
 [![Role](https://img.shields.io/badge/AI_Automation_Engineer-n8n_·_Python_·_JavaScript-6C4DF6)](https://github.com/LeonidShamarin)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A7B70)](https://portfolio-seven-delta-75.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A7B70)](https://portfolio-shamarin-leonid.vercel.app/)
 [![Location](https://img.shields.io/badge/Location-Lviv,_Ukraine-green)](https://www.google.com/maps/place/Lviv)
 [![Email](https://img.shields.io/badge/Email-leonideko1@gmail.com-red)](mailto:leonideko1@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/leonid-shamarin-749649272/)
@@ -96,7 +96,7 @@ failure. Classification falls back to a rule-based score if the model is down.
 `Python · FastAPI · Groq (Llama 3.3 70B) · Pydantic · Airtable · Telegram Bot API`
 
 More, including the frontend work, on my
-**[portfolio](https://portfolio-seven-delta-75.vercel.app/)**.
+**[portfolio](https://portfolio-shamarin-leonid.vercel.app/)**.
 
 ---
 
@@ -159,6 +159,6 @@ Code 101 and AI Fluency · Hugging Face AI Agents Fundamentals — all 2026.
 
 - **Email**: [leonideko1@gmail.com](mailto:leonideko1@gmail.com)
 - **LinkedIn**: [Leonid Shamarin](https://www.linkedin.com/in/leonid-shamarin-749649272/)
-- **Portfolio**: [portfolio-seven-delta-75.vercel.app](https://portfolio-seven-delta-75.vercel.app/)
+- **Portfolio**: [portfolio-shamarin-leonid.vercel.app](https://portfolio-shamarin-leonid.vercel.app/)
 
 Open to automation, integration and AI engineering work.
