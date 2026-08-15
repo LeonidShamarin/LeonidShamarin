@@ -1,96 +1,164 @@
-# Hi there, I'm Leonid Shamarin! 👋
+# Hi, I'm Leonid Shamarin 👋
 
-[![Front-End Developer](https://img.shields.io/badge/Front--End_Developer-2_years_experience-blue)](https://github.com/LeonidShamarin)
+**AI Automation Engineer (n8n / JavaScript / Python)** — ERP/CRM and marketplace integrations.
+Full-stack developer with an AI focus.
+
+[![Role](https://img.shields.io/badge/AI_Automation_Engineer-n8n_·_Python_·_JavaScript-6C4DF6)](https://github.com/LeonidShamarin)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A7B70)](https://portfolio-seven-delta-75.vercel.app/)
 [![Location](https://img.shields.io/badge/Location-Lviv,_Ukraine-green)](https://www.google.com/maps/place/Lviv)
 [![Email](https://img.shields.io/badge/Email-leonideko1@gmail.com-red)](mailto:leonideko1@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/leonid-shamarin-749649272/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/LeonidShamarin)
 
 ---
 
 ## 🚀 About Me
 
-I'm a **Front-End Developer** based in **Lviv, Ukraine**. With **2 years of experience**, I specialize in crafting visually appealing and user-centric websites and applications that elevate the user experience. I'm passionate about creating seamless, responsive, and scalable interfaces.
+I build workflow automation, e-commerce integrations and self-hosted Python
+micro-services. For a pan-European multi-brand retailer that meant **350+ n8n and
+Windmill workflows**, **5+ FastAPI/Flask services** running on Coolify, and
+integrations across **11+ marketplaces** — with the DevOps ownership that comes
+with running your own infrastructure: Docker, Hetzner, Cloudflare, GitHub
+auto-deploy.
 
-- 👨‍💻 **Currently working on**: Crafting interfaces for better web experiences.
-- 🌐 **Technologies I work with**: HTML5, CSS3, JavaScript, React, Angular, and Sass.
-- 📚 **Always learning**: New technologies and development practices to stay ahead in the industry.
-
----
-
-## 🌍 Location and Contact
-
-- **Location**: Lviv, Ukraine.
-- **Email**: [leonideko1@gmail.com](mailto:leonideko1@gmail.com).
-- **Socials**:
-  - [LinkedIn](https://www.linkedin.com/in/leonid-shamarin-749649272/)
-  - [GitHub](https://github.com/LeonidShamarin)
-
----
-
-## 🧠 What I'm Currently Learning
-
-- **React & Angular**: Deep diving into building scalable and efficient interfaces.
-- **DevOps**: Exploring tools and practices to optimize development processes.
-
----
-
-## 🛠️ Skills
-
-### Front-End Development
-- **Languages**: HTML5, CSS3, JavaScript, TypeScript
-- **Frameworks & Libraries**: React.js, Angular, RxJS
-- **State Management**: Redux, React Router
-- **Styling**: SASS, Bootstrap, Angular Material, Material-UI
-- **Testing**: Jest, React Testing Library
-
-### Back-End & Databases
-- **Back-End**: Node.js, Firebase
-- **Databases**: SQL, MongoDB
-
-### Tools & Platforms
-- **Version Control**: Git, GitHub, Git Actions
-- **DevOps**: Docker, SonarQube
-- **Package Managers**: npm
-
----
-
-## 🤝 Open to Collaboration
-
-I'm always eager to collaborate on exciting new projects! Whether it's a challenging front-end task or a full-stack project, I'm ready to contribute and learn. Let's build something amazing together!
+The integration work goes deep — Odoo over JSON-RPC, Bitrix24, VTEX, Metro DE,
+eBay, Mirakl — and the AI work is the part I care most about: category and
+content resolution with structured output and fallback chains, retrieval over
+document corpora, and agents that stop and ask a human before doing anything
+irreversible. My frontend background means I can deliver a system end to end,
+from the data pipeline to the interface someone actually uses.
 
 ---
 
 ## 🏆 Featured Projects
 
-Here are some of the projects I've worked on:
+Automation and AI projects, each built to be **measured rather than
+demonstrated** — the numbers below come from their own evaluation sets, and the
+tests run without touching the network.
 
-1. **Angular Calendar App**  
-   A calendar application built with Angular, featuring event creation, editing, and deletion. It demonstrates my skills in Angular, state management, and responsive design.  
-   [View on GitHub](https://github.com/LeonidShamarin/Angular-Calendar-App)
+### [KB RAG Assistant](https://github.com/LeonidShamarin/kb-rag-assistant)
+Retrieval-augmented assistant over a Ukrainian regulatory corpus, evaluated on
+**122 golden questions**. Embedding choice dominated everything else:
+all-MiniLM-L6-v2 scored hit@k 0.526 / MRR 0.310, while multilingual-e5-small at
+the same 384 dimensions scored **1.000 / 0.983**. A Ukrainian stemmer added
++18.9 pp MRR on inflected queries. Hybrid retrieval reached perfect recall but
+ranked *worse* than plain dense search — so the assumption that hybrid always
+wins does not hold here. Answers cite the source snippet, and it refuses instead
+of inventing. 61 tests.
 
-2. **Rick and Morty Project**  
-   A web application that fetches and displays characters from the Rick and Morty API. Built with React, it showcases API integration, dynamic data rendering, and clean UI design.  
-   [View on GitHub](https://github.com/LeonidShamarin/Project-Rick-and-Morty)
+`Python · sentence-transformers · multilingual-e5 · BM25 · Docker · pytest`
 
-3. **Your FilleDrive (Firebase)**  
-   A file storage and management application built with Firebase. It allows users to upload, download, and manage files in the cloud. This project highlights my skills in React and Firebase integration and real-time data handling.  
-   [View on GitHub](https://github.com/LeonidShamarin/Your-FilleDrive-Firebase)
+### [Doc to CRM](https://github.com/LeonidShamarin/doc-to-crm)
+Reads invoices and delivery notes — PDFs or phone photos — into ledger entries,
+with a review UI for whatever it is unsure about. On 40 documents: **90% fully
+correct** (100% on PDFs, 100% on clean photos, 60% on difficult ones — the honest
+split an aggregate hides). Human-review routing reaches 88.9% recall with zero
+false alarms and caught all 5 planted mismatches. The main finding is negative:
+the model's self-reported confidence was **1.00 on 36 of 40 documents, including
+ones it got wrong**, so routing is driven by cross-checks instead. 111 tests.
 
-4. **GIF Search App**  
-   A web application for searching GIF animations using the Giphy API. Built with Angular 17 and Angular Material.  
-   [View on GitHub](https://github.com/LeonidShamarin/Angular_GifSearch_App)
+`Python · Gemini Vision · Pydantic · FastAPI · Docker · pytest`
+
+### [Inbox Agent](https://github.com/LeonidShamarin/inbox-agent)
+A tool-calling agent that triages a queue and **stops before anything
+irreversible**. Across 8 evaluation scenarios it picked the correct first tool
+every time and attempted 6 irreversible actions: 5 were surfaced for human
+confirmation, 1 was rejected by argument validation, none executed unattended.
+Arguments are validated *before* the pause — otherwise people confirm calls that
+then fail, and learn to click through without reading. Its own BM25 search
+reaches hit@1 76% / hit@3 92% and stays silent 100% of the time on out-of-corpus
+questions. 2.62 steps per scenario against a limit of 6; $1.16 per 1000
+requests; 50 tests.
+
+`Python · Gemini · tool calling · BM25 · human-in-the-loop · pytest`
+
+### [AI Request Classifier](https://github.com/LeonidShamarin/request-classifier-ai)
+Turns a free-form stream of internal requests (Slack, Telegram, email, in
+Ukrainian) into structured records: category, priority, department, summary.
+Resilience is **split by class of failure** instead of piled into one retry — a
+rate limiter for quota, backoff for transient 429/5xx, a circuit breaker that
+recognises a daily quota by its `quotaId` rather than blindly obeying the
+API's `retryDelay`, and a self-repair pass that shows the model its own validation
+error. No input row is ever dropped: a request that fails every retry still
+lands in the output flagged for a human. 35 tests.
+
+`Python · Gemini · Pydantic · asyncio · Docker · Google Sheets API · pytest`
+
+### [Lead Processor](https://github.com/LeonidShamarin/lead-processor)
+A webhook service that turns a raw landing-page enquiry into something sales can
+act on in seconds: Pydantic normalises the payload (a Ukrainian mobile
+written `0XXXXXXXXX` becomes `+380XXXXXXXXX`, a budget written `15k` becomes `15000`),
+Llama 3.3 70B on Groq writes the summary and scores the lead, and the result
+fans out to Airtable and Telegram in parallel. Everything downstream of the AI
+step is **non-fatal**: if Airtable or Telegram is unreachable the endpoint still
+returns 200, because losing the lead to a notification outage is the worse
+failure. Classification falls back to a rule-based score if the model is down.
+
+`Python · FastAPI · Groq (Llama 3.3 70B) · Pydantic · Airtable · Telegram Bot API`
+
+More, including the frontend work, on my
+**[portfolio](https://portfolio-seven-delta-75.vercel.app/)**.
 
 ---
 
-## 📫 Let's Connect!
+## 🛠️ Skills
 
-If you'd like to collaborate, discuss a project, or just say hi, feel free to reach out:
+- **Workflow automation** — n8n.io, Windmill, REST and webhook design
+- **Languages** — Python, JavaScript, TypeScript, Node.js
+- **Python web** — FastAPI, Flask, uvicorn, gunicorn, pydantic, pytest
+- **AI** — OpenAI, Google Gemini, xAI Grok (incl. Vision), Anthropic Claude, RAG, structured output and fallback chains
+- **Browser automation** — Playwright (Chromium), TOTP/2FA automation
+- **DevOps** — Docker, Coolify, Hetzner, Cloudflare, GitHub Actions
+- **Cloud and images** — AWS (S3, CloudFront, IAM, Lambda), Thumbor
+- **ERP / CRM** — Odoo (JSON-RPC), Bitrix24
+- **Marketplaces** — eBay, Bol.com, Mirakl, VTEX (OBI), Metro DE, Praktiker.de, Aukro, Okazii, Pigu
+- **Frontend** — React.js, Angular, Redux, HTML5, CSS3, Sass, TailwindCSS, Material-UI, Bootstrap
+- **Data** — Supabase, MongoDB, SQL, Firebase, Airtable, Google Sheets API
+- **Testing** — pytest, Jest, React Testing Library, SonarQube
+
+---
+
+## 💼 Experience
+
+### Developer, n8n / JavaScript / Python — Hajus AG
+*06/2025 — 07/2026*
+
+Designed and maintained 350+ workflows across 11+ European marketplaces; built
+5+ production Python micro-services on Coolify; re-architected the OBI/VTEX
+auto-posting pipeline from n8n to Windmill with AI resolution of category,
+dimensions and attributes; built a pricing-intelligence system on Bitrix24 order
+data; architected the AWS image pipeline (S3 + CloudFront + Thumbor), cutting
+hosting costs by ~70%.
+
+### Front-End Developer, internship — SoftServe LLC
+*11/2023 — 11/2024*
+
+React/TypeScript applications with Node.js/MongoDB backends, CI via GitHub
+Actions, unit testing with Jest.
+
+### Project Engineer — Eco-Techgroup LLC
+*06/2016 — 10/2022*
+
+End-to-end management of engineering projects: cross-functional teams,
+procurement, budgeting, client communication.
+
+---
+
+## 🎓 Certificates
+
+IBM Generative AI Engineering Professional Certificate (16 courses) · Generative
+AI Engineering with LLMs · Google AI Professional Certificate · Anthropic Claude
+Code 101 and AI Fluency · Hugging Face AI Agents Fundamentals — all 2026.
+[All certificates](https://drive.google.com/drive/folders/1HmTlgvKdW3XtKHc_6xuCmTRQtIqBiuuJ?usp=drive_link)
+
+**Education** — M.S. Computer Science with Honors, European University
+(10/2022 — 01/2024)
+
+---
+
+## 📫 Let's connect
 
 - **Email**: [leonideko1@gmail.com](mailto:leonideko1@gmail.com)
 - **LinkedIn**: [Leonid Shamarin](https://www.linkedin.com/in/leonid-shamarin-749649272/)
-- **GitHub**: [LeonidShamarin](https://github.com/LeonidShamarin)
+- **Portfolio**: [portfolio-seven-delta-75.vercel.app](https://portfolio-seven-delta-75.vercel.app/)
 
----
-
-**Thanks for visiting! 🚀**
+Open to automation, integration and AI engineering work.
