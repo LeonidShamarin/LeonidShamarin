@@ -145,9 +145,17 @@ procurement, budgeting, client communication.
 
 ## 🎓 Certificates
 
-IBM Generative AI Engineering Professional Certificate (16 courses) · Generative
-AI Engineering with LLMs · Google AI Professional Certificate · Anthropic Claude
-Code 101 and AI Fluency · Hugging Face AI Agents Fundamentals — all 2026.
+- **IBM Generative AI Engineering Professional Certificate** — 16 courses, IBM via Coursera, 08/2026 · [verify](https://www.coursera.org/account/accomplishments/specialization/5OBWSAXNAZVU)
+- **Generative AI Engineering with LLMs Specialization** — IBM via Coursera, 08/2026 · [verify](https://www.coursera.org/account/accomplishments/specialization/KH4ITH2XH52M)
+- **Google AI Professional Certificate** — 7 courses, Google via Coursera, 07/2026 · [verify](https://www.coursera.org/account/accomplishments/specialization/GRXNDXGMGTHC)
+- **Anthropic: Claude Code 101** — 07/2026 · [verify](https://verify.skilljar.com/c/fyedtsckkc8e)
+- **Mastering Claude Code: From Setup to Real Projects** — SkillsBooster via Coursera, 07/2026 · [verify](https://www.coursera.org/account/accomplishments/verify/8YPMYGZDBFP8)
+- **Anthropic: AI Fluency — Framework & Foundations** — 06/2026 · [verify](https://verify.skilljar.com/c/5y6xb6hns8gn)
+- **Hugging Face: AI Agents Fundamentals** — 06/2026 · [certificate](https://drive.google.com/file/d/1z-SJgGFywpgo-VqEuDoshHmMwSznLC2z/view?usp=sharing)
+- **Google: AI Fundamentals** — Google via Coursera, 06/2026 · [verify](https://www.coursera.org/account/accomplishments/verify/YUEBPTUSDHJ0)
+- **SoftServe Academy: Complete WebUI Engineer Course** — 01/2024 · [verify](https://career.softserveinc.com/en-us/certification/verification)
+- **EF SET English Certificate** — 57/100, B2 Upper Intermediate, 05/2024 · [verify](https://cert.efset.org/w68yVi)
+
 [All certificates](https://drive.google.com/drive/folders/1HmTlgvKdW3XtKHc_6xuCmTRQtIqBiuuJ?usp=drive_link)
 
 **Education** — M.S. Computer Science with Honors, European University
